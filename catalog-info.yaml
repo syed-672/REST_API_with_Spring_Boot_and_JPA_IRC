@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: your-service-name
   description: A short description of the service
+  annotations:
+    jenkins.io/job-full-name: sasa
   labels:
     app.kubernetes.io/part-of: your-app-name
 spec:
