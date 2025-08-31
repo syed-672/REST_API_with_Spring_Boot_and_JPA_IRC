@@ -1,16 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: your-service-name
-  description: A short description of the service
-  labels:
-    app.kubernetes.io/part-of: your-app-name
+  name: my-service
+  description: My simple service
 spec:
   type: service
-  owner: span
-  lifecycle: production
-  implementsApis:
-    - example-api
-  links:
-    - url: https://github.com/syed-672/REST_API_with_Spring_Boot_and_JPA_IRC.git
-      description: Source Code
+  owner: my-team
