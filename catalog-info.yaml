@@ -2,9 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: your-service-name
+  title: Your Service Name
   description: A short description of the service
   annotations:
-    jenkins.io/job-full-name: sasa
+    jenkins.io/job-full-name: "sasa"   # <-- Jenkins job name as it appears in Jenkins
   labels:
     app.kubernetes.io/part-of: your-app-name
 spec:
@@ -15,4 +16,5 @@ spec:
     - example-api
   links:
     - url: https://github.com/syed-672/REST_API_with_Spring_Boot_and_JPA_IRC.git
-      description: Source Code
+      title: Source Code
+      icon: github
