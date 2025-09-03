@@ -7,7 +7,7 @@ metadata:
   annotations:
     jenkins.io/job-full-name: "sasa"   # <-- Jenkins job name as it appears in Jenkins
   labels:
-    app.kubernetes.io/part-of: your-app-name
+    backstage.io/managed-by-location: url:https://github.com/syed-672/REST_API_with_Spring_Boot_and_JPA_IRC/blob/main/catalog-info.yaml
 spec:
   type: service
   owner: span
