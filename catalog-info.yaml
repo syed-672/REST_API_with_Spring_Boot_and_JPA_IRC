@@ -5,9 +5,10 @@ metadata:
   title: Your Service Name
   description: A short description of the service
   annotations:
-    jenkins.io/job-full-name: "sasa"   # <-- Jenkins job name as it appears in Jenkins
+    jenkins.io/job-full-name: "your-jenkins-job-name"
+    backstage.io/managed-by-location: 'url:https://github.com/syed-672/REST_API_with_Spring_Boot_and_JPA_IRC/blob/main/catalog-info.yaml'  # optional
   labels:
-    backstage.io/managed-by-location: url:https://github.com/syed-672/REST_API_with_Spring_Boot_and_JPA_IRC/blob/main/catalog-info.yaml
+    app: your-service-name
 spec:
   type: service
   owner: span
