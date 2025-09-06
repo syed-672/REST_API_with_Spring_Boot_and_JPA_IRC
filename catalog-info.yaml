@@ -1,21 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: your-service-name
-  title: Your Service Name
-  description: A short description of the service
+  name: sasa
+  namespace: default
   annotations:
-    jenkins.io/job-full-name: 'sasa'
-    backstage.io/managed-by-location: 'url:https://github.com/syed-672/REST_API_with_Spring_Boot_and_JPA_IRC/blob/main/catalog-info.yaml'  # optional
-  labels:
-    app: your-service-name
+    jenkins.io/job-full-name: sasa
 spec:
   type: service
-  owner: span
   lifecycle: production
-  implementsApis:
-    - example-api
-  links:
-    - url: https://github.com/syed-672/REST_API_with_Spring_Boot_and_JPA_IRC.git
-      title: Source Code
-      icon: github
+  owner: team@example.com
